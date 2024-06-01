@@ -1,0 +1,650 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+html{
+	z-index: 1;
+}
+body{
+}
+/**/
+.backimg{
+	width: 100%;
+	height: auto;
+	float: left;
+	background-image: url(../img/colored_body_top.png);
+	background-repeat: no-repeat;
+}
+.top-main-lan{
+	width: 100%;
+	height: 104px;
+	background-color: #171a21;
+	float: left;
+}
+.top-mar{
+	width: 940px;
+	height: 104px;
+	margin: auto;
+}
+.steam-logo{
+	width: 176px;
+	float: left;
+	padding: 30px 0 0 0;
+}
+.cool-top{
+	margin: 0 0 0 24px;
+	float: left;
+}
+.cool-top>a{
+	display: block;
+	padding: 43px 7px 0 7px;
+	float: left;
+	color: #b8b6b4;
+	font-size: 14px;
+}
+.cool-top>a:hover{
+	color: #FFF;
+}
+.right{
+	width: 156px;
+	height: 24px;
+	float: right;
+	margin-top: 6px;
+}
+.steam-xz{
+	height: 24px;
+	padding: 0 10px 0 34px;
+	float: left;
+	text-align: right;
+	font-size: 12px;
+	line-height: 24px;
+	background-color: #5c7e10;
+	background-image: url(../img/steamxz.png);
+	background-repeat: no-repeat;
+}
+.steam-xz>a{
+	color: #e5e4dc;
+}
+.steam-xz>a:hover{
+	color: #FFF;
+}
+.login{
+	line-height: 20px;
+	padding: 1px 7px;
+	margin-left: 2px;
+	float: left;
+}
+.login>a{
+	font-size: 12px;
+	color: #b8b6b4;
+}
+.login>a:hover{
+	color: #FFF;
+}
+
+.sdian{
+	width: 100%;
+	height: 450px;
+	background-image: url(../img/page_bg_sc_schinese.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	float: left;
+	background-color: #008CBA;
+	padding: 33px 0 0 0;
+}
+.sdian-main{
+	width: 940px;
+	height: 33px;
+	margin: auto;
+	text-shadow: 1px 1px 0px rgb(255 255 255 / 10%);
+	background: linear-gradient(to right,#3e618c,#0f216e);
+}
+.sdian-main>a{
+	display: block;
+	width: 80px;
+	height: 33px;
+	float: left;
+	line-height: 33px;
+	text-align: center;
+	color: #c6d4df;
+	font-size: 13px;
+	font-weight: 1000;
+}
+.sdian-main>a:hover{
+	background: linear-gradient(to right,#00c4ff,transparent);
+}
+.sdian-none-zhuye{
+	display: none;
+	width: 200px;
+	height: 40px;
+	line-height: 35px;
+	background: linear-gradient(#697a88,#52606b,#2d343b);
+	position:absolute;
+	top: 170px;
+	z-index: 999;
+}
+.sdian-a{
+	color: #d0d0d0;
+	padding-bottom: 4px;
+	margin-left: 12px;
+	font-size: 12px;
+	transition: 0.5s;
+	border-bottom: 3px solid transparent;
+}
+.sdian-a:hover{
+	color: #FFF;
+	border-bottom: 2px solid #FFF;
+}
+.sdian-none-youxi{
+	display: none;
+	line-height: 35px;
+	background: linear-gradient(#697a88,#52606b,#2d343b);
+	position:absolute;
+	top: 170px;
+	z-index: 999;
+}
+.sdian-none-mianfei{
+	width: 150px;
+	height: 100%;
+	float: left;
+	border-right: 2px solid #404a53;
+}
+.sdian-top{
+	float: left;
+	width: 60px;
+	height: 130px;
+	padding-left: 5px;
+}
+.sdian-top>.sdian-a{
+	float: left;
+	height: 25px;
+}
+.sdian-bottom{
+	float: left;
+	width: 140px;
+	border-top: 2px solid #171A21;
+	padding-left: 10px;
+}
+.sdian-bottom>span{
+	font-size: 12px;
+	font-weight: 600;
+	color: #00C4FF;
+}
+.youxi-neiro{
+	width: 770px;
+	height: 430px;
+	padding: 10px;
+	float: left;
+}
+.youxi-neiro>span{
+	font-size: 12px;
+	font-weight: 600;
+	color: #00C4FF;
+}
+
+.searchbox {
+    background-image: url(../img/store_header_search.png);
+	background-repeat: no-repeat;
+	border-radius: 4px;
+	margin-right: 10px;
+    color: #a6a5a2;
+	margin-top: 2px;
+    width: auto;
+    height: 30px;
+	float: right;
+}
+.searchbox input {
+    border: none;
+    background-color: transparent;
+    color: #eeeeee;
+	margin-top: 2px;
+    margin-left: 8px;
+    outline: none;
+    line-height: 26px;
+}
+
+.main-bottom{
+	width: 100%;
+	height: auto;
+	padding-top: 30px;
+	float: left;
+}
+.main-bottom-top-text{
+	width: 940px;
+	height: auto;
+	font-size: 15px;
+	padding: 10px 0;
+	color: #FFF;
+	margin: auto;
+}
+.main-bottom-img{
+	width: 940px;
+	height: 353px;
+	margin: auto;
+}
+.main-bottom-img-do{
+	width: 616px;
+	height: 353px;
+	float: left;
+	background-image: url(../img/img1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.main-bottom-main{
+	width: 324px;
+	height: 353px;
+	float: left;
+	overflow: hidden;
+	background-color: #0a141d;
+}
+.main-bottom-main-title{
+	width: 100%;
+	height: 65px;
+	padding-left: 20px;
+	padding-top: 10px;
+	text-align: left;
+	font-size: 20px;
+	color: #FFF;
+	float: left;
+}
+.main-bottom-main-img{
+	width: 100%;
+	height: 170px;
+	float: left;
+}
+.main-bottom-main-img-img{
+	cursor: pointer;
+	padding: 5px;
+	float: left;
+}
+.main-bottom-main-rexiao{
+	width: 100%;
+	height: 70px;
+	padding-left: 15px;
+	font-size: 25px;
+	color: #FFF;
+	float: left;
+}
+.rxsp{
+	width: 60px;
+	text-align: center;
+	background-color: #828282;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #FFF;
+}
+.main-bottom-main-rmb{
+	width: 100%;
+	height: 30px;
+	padding-left: 15px;
+	line-height: 30px;
+	color: #acdbf5;
+	float: left;
+}
+
+.lulsteam{
+	width: 100%;
+	height: auto;
+	padding-top: 70px;
+	padding-bottom: 100px;
+	float: left;
+}
+.lulsteam-text{
+	width: 940px;
+	height: auto;
+	margin: auto;
+	padding: 10px 0;
+	color: #FFF;
+	font-size: 15px;
+}
+.lulsteam-nr{
+	width: 940px;
+	height: auto;
+	margin: auto;
+}
+.lulsteam-nr>a{
+	display: flex;
+	width: 229px;
+	height: 58px;
+	float: left;
+	justify-content: space-around;
+	justify-content: center;
+	text-transform: uppercase;
+	margin-left: 6px;
+	text-align: center;
+	line-height: 58px;
+	color: #FFF;
+	font-size: 16px;
+	letter-spacing: 0.03em;
+	background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+	border-radius: 3px;
+	box-shadow: 0 0 4px #000;
+	font-weight: 500;
+}
+.lulsteam-nr>a:hover{
+	background: linear-gradient(90deg, #06BFFF 20%, #2D73FF 100%);
+}
+.bottom-bottom-title{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.bottom-bottom-title-text{
+	width: 940px;
+	height: 31px;
+	margin: auto;
+}
+.bottom-bottom-title-text>a{
+	display: block;
+	float: left;
+	padding: 0 10px;
+	text-align: center;
+	font-size: 14px;
+	color: #4f94bc;
+	border-radius: 1px;
+	line-height: 31px;
+}
+.bottom-bottom-title-text>a:hover{
+	color: #FFF;
+}
+
+.game-steam{
+	width: 100%;
+	height: 850px;
+	background: linear-gradient(#2a475e, #1b2838);
+	padding-top: 10px;
+	float: left;
+}
+.game-steam-main{
+	width: 940px;
+	height: auto;
+	margin: auto;
+}
+.game-steam-main-left{
+	width: 618px;
+	height: auto;
+	float: left;
+}
+.game-steam-main-left-gduo{
+	width: 625px;
+	height: 28px;
+	background-color: #213749;
+	text-align: right;
+	padding: 4px;
+	color: #c6d4df;
+	font-size: 12px;
+	line-height: 36px;
+}
+.game-steam-main-left-gduo>a{
+	display: block;
+	width: 56px;
+	height: 23px;
+	border: 1px solid #8d8d8d;
+	color: #FFF;
+	line-height: 23px;
+	text-align: center;
+	font-size: 12px;
+	margin: 2px 4px 2px 8px;
+	padding: 1px;
+	float: right;
+	border-radius: 2px;
+}
+.game-steam-main-left-gduo>a:hover{
+	border: 1px solid #ffffff;
+}
+.game-steam-nr{
+	width: 632px;
+	height: 69px;
+	margin-bottom: 5px;
+	background-color: #213749;
+}
+.game-steam-nr-tes{
+	width: 632px;
+	height: 69px;
+	margin-bottom: 5px;
+	background-color: #a6cbe0;
+}
+.game-steam-text-tes{
+	width: 360px;
+	height: 61px;
+	padding: 4px;
+	float: left;
+}
+.game-steam-rmb-tes{
+	width: 66px;
+	height: 69px;
+	float: left;
+	text-align: left;
+	font-size: 13px;
+	color: #000000;
+	line-height: 69px;
+}
+.game-steam-title-tes{
+	color: #000000;
+	font-size: 15px;
+	line-height: 18px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+	transition: color 0.25s;
+}
+.game-steam-gon-tes{
+	font-size: 12px;
+	color: #000000;
+}
+.game-steam-img{
+	width: 184px;
+	height: 69px;
+	float: left;
+}
+.game-steam-text{
+	width: 360px;
+	height: 61px;
+	padding: 4px;
+	float: left;
+}
+.game-steam-title{
+	color: #c7d5e0;
+	font-size: 15px;
+	line-height: 18px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+	transition: color 0.25s;
+}
+.game-steam-windows{
+	width: 355px;
+	float: left;
+	padding-left: 5px;
+}
+.game-steam-gon{
+	font-size: 12px;
+	color: #a6cbe0;
+}
+.game-steam-rmb{
+	width: 66px;
+	height: 69px;
+	float: left;
+	text-align: left;
+	font-size: 13px;
+	color: #acdbf5;
+	line-height: 69px;
+}
+
+
+.game-steam-main-reght{
+	width: 278px;
+	height: 741px;
+	padding: 15px 15px;
+	background-color: #a6cbe0;
+	float: right;
+	overflow: hidden;
+}
+.game-steam-main-reght-title{
+	width: 100%;
+	height: 32px;
+	font-size: 21px;
+	line-height: 32px;
+	text-align: left;
+	float: left;
+	margin-bottom: 7px;
+}
+.game-steam-main-reght-good{
+	width: 264px;
+	height: 40px;
+	padding: 5px 7px;
+	color: #c6d4df;
+	font-size: 14px;
+	margin-bottom: 10px;
+	background-color: #4f6374;
+	border-radius: 4px;
+	float: left;
+}
+.game-steam-main-reght-good>span>a{
+	color: #66C0F4;
+}
+.game-steam-main-reght-gone{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.game-steam-main-reght-gone>a{
+	display: block;
+	padding: 3px 10px;
+	margin-right: 3px;
+	border-radius: 3px;
+	background-color: #4f6374;
+	float: left;
+	color: #FFF;
+	font-size: 12px;
+}
+.game-steam-main-reght-gone>a:hover{
+	color: #66C0F4;
+}
+.game-steam-main-reght-img{
+	width: 274px;
+	height: auto;
+	float: left;
+	margin-top: 5px;
+}
+
+.bottom-dlu{
+	width: 100%;
+	height: 222px;
+	background-color: #000000;
+	padding: 25px 0;
+	float: left;
+}
+.bottom-dlu-title{
+	width: 940px;
+	height: 35px;
+	font-weight: normal;
+	margin: auto;
+	font-size: 24px;
+	color: #67c1f5;
+	text-align: center;
+}
+.bottom-dlu-text{
+	width: 940px;
+	height: 150px;
+	padding: 16px;
+	margin: auto;
+}
+.bottom-dlu-text>p{
+	margin-top: 5px;
+	text-align: center;
+	font-size: 15px;
+	color: #8f98a0;
+}
+.bottom-dlu-button{
+	width: 940px;
+	height: 65px;
+	margin: 15px 0 0 0;
+	margin: auto;
+	text-align: center;
+}
+.bottom-dlu-button-a{
+	border-radius: 4px;
+	border: 2px solid #172030;
+	padding: 6px 15px;
+	font-size: 15px;
+	margin: 15px 0;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none !important;
+	color: #D2E885 !important;
+	background: #a4d007;
+	background: -webkit-linear-gradient( top, #a4d007 5%, #536904 95%);
+	background: linear-gradient( to bottom, #a4d007 5%, #536904 95%);
+}
+.bottom-dlu-button>span{
+	text-align: center;
+	font-size: 15px;
+	color: #8f98a0;
+}
+
+.steam-bottom{
+	width: 100%;
+	height: 257px;
+	padding: 16px 16px 60px;
+	background: #171a21;
+	float: left;
+}
+.steam-bottom-main{
+	width: 894px;
+	height: auto;
+	padding-top: 16px;
+	margin: auto;
+}
+.steam-bottom-logo{
+	width: 142px;
+	height: 48px;
+	float: left;
+}
+.steam-bottom-a{
+	width: 660px;
+	margin-top: 15px;
+	height: 17px;
+	float: right;
+}
+.steam-bottom-a>a{
+	color: #8F8E93;
+	font-size: 12px;
+}
+.steam-bottom-a>a:hover{
+	color: #FFF;
+}
+.wmsj{
+	width: 894px;
+	height: auto;
+	float: left;
+}
+.wmsj-letf{
+	width: 241px;
+	height: auto;
+	float: left;
+}
+.fx-wx-wb{
+	float: right;
+}
+.steam-gfz{
+	width: 894px;
+	height: 65px;
+	margin-top: 20px;
+	float: left;
+}
+.gfz-letf{
+	width: 318px;
+	height: auto;
+	float: left;
+	font-size: 13px;
+	color: #8F8E93;
+}
+.gfz-reght{
+	float: right;
+	font-size: 12px;
+	color: #8F8E93;
+}
